@@ -1,0 +1,12 @@
+The survey of WHO (World Health Organization) carried out in 2020 tells us that in world about 1% of the human population is visually impaired and amongst them about 10% is fully blind. The main problem with blind people is mobility.
+
+The project proposes a tool for visually impaired people that will provide them navigation. Long white cane is a traditional mobility tool used to detect obstacles in the path of a blind person. 
+The possibility of trying to remove the idea of a cane and helping the blind to walk like a normal person.
+
+The Ultrasonic Shoe is a primary electronic mobility aid for use by people who are blind or visually impaired; it is a major "step forward" in assistive technology that allows safe obstacle avoidance and permits navigation around obstacles.
+This device would allow the blind person to move independently like any normal person would.
+
+This shoe contains Ultrasonic Obstacle Detector which detects the object in front of the person, the information is send to a microcontroller,
+this microcontroller, then will trigger the buzzer and the vibrator letting the person know that there is an incoming obstacle.
+
+A belt also comes as an add-on, this belt contains two buttons one for automated call and other for SMS. This would help the blind person to contact a relative or a friend if he/she is lost.
