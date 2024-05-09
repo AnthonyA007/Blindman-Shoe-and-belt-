@@ -1,0 +1,36 @@
+#define CUSTOM_SETTINGS
+#define INCLUDE_SMS_SHIELD
+#define INCLUDE_Phone_SHIELD
+int button1=12;
+int button2=11;
+#include <OneSheeld.h>
+boolean isMessageSent = false;
+
+void setup()
+{
+OneSheeld.begin();
+pinMode(button1,INPUT);
+pinMode(button2,INPUT);
+}
+
+void loop()
+{
+if (digitalRead(button1) == HIGH)
+{
+if(!isMessageSent)
+{
+SMS.send("05070084**","I need help.. www.ultrasonicshoe.cu.me"); //Message
+here
+isMessageSent = true;
+}
+}
+
+else
+{
+isMessageSent = false;
+}
+if(digitalRead(button2) == HIGH)
+{
+Phone.call("05070084**"); // Phone number here
+}
+} 
